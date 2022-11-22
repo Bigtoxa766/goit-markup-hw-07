@@ -457,18 +457,18 @@ footer
   font-style: normal;
   width: 231px;
 }
-.address-text{
+.address__text{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
     margin-bottom: 9px;
 }
-.address-list{
+.address__list{
   list-style: none;
 }
 
-.address-list .link {
+.address__list .link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -478,8 +478,8 @@ footer
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address-list .link:hover,
-.address-list .link:focus {
+.address__list .link:hover,
+.address__list .link:focus {
   color: var(--accent-color);
 }
 .mail-footer{
