@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -26,27 +27,27 @@
         <a href="./index.html" class="logo logo--whitebg">
           <span class="logo__accent">Web</span>Studio</a>
         <nav class="navigation">
-          <ul class="navigation-list">
+          <ul class="navigation__list">
             <li>
-              <a class="navigation-list__link link current" href="./index.html">Студія</a>
+              <a class="navigation__link link current" href="./index.html">Студія</a>
             </li>
             <li>
-              <a class="navigation-list__link link" href="./portfolio.html">Портфоліо</a>
+              <a class="navigation__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="navigation-list__link link" href="">Контакти</a></li>
+            <li><a class="navigation__link link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact-list">
+        <ul class="contact__list">
           <li>
-            <a class="contact-list__link link" href="mailto:info@devstudio.com">
-              <svg class="contact-list__icon--letter" width="16" height="12">
+            <a class="contact__link link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon--letter" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-letter"></use>
               </svg>
               info@devstudio.com</a>
           </li>
           <li>
-            <a class="contact-list__link link" href="tel:+380961111111">
-              <svg class="contact-list__icon--smartphone" width="10" height="16">
+            <a class="contact__link link" href="tel:+380961111111">
+              <svg class="contact__icon--smartphone" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a>
@@ -67,8 +68,8 @@
         <!-- приховано -->
     
         <div class="container">
-          <ul class="advantage-list">
-            <li class="advantage-list__item">
+          <ul class="advantage__list">
+            <li class="advantage__item">
               <div class="advantage__box">
                 <svg  width="65px" height="70px">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
@@ -80,7 +81,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="advantage-list__item">
+            <li class="advantage__item">
               <div class="advantage__box">
                 <svg  width="65px" height="70px">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
@@ -92,7 +93,7 @@
                 у себе.
               </p>
             </li>
-            <li class="advantage-list__item">
+            <li class="advantage__item">
               <div class="advantage__box">
                 <svg  width="65px" height="70px">
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
@@ -103,7 +104,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advantage-list__item">
+            <li class="advantage__item">
               <div class="advantage__box">
                 <svg  width="65px" height="70px">
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
@@ -121,18 +122,18 @@
       <section class="work">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="work-list">
-            <li class="work-list__item">
+          <ul class="work__list">
+            <li class="work__item">
               <img src="./images/img1.jpg" alt="Робота за комп'ютером" width="370" height="294" />
-              <p class="work-list__text">Десктопні додатки</p>
+              <p class="work__text">Десктопні додатки</p>
             </li>
-            <li class="work-list__item">
+            <li class="work__item">
               <img src="./images/img2.jpg" alt="Робота на смартфоні" width="370" height="294" />
-              <p class="work-list__text">Мобільні додатки</p>
+              <p class="work__text">Мобільні додатки</p>
             </li>
-            <li class="work-list__item">
+            <li class="work__item">
               <img src="./images/img3.jpg" alt="Робота на планшеті" width="370" height="294" />
-              <p class="work-list__text">Дизайнерські рішення</p>
+              <p class="work__text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -140,15 +141,15 @@
       <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list">
-            <li class="team-list__item">
+          <ul class="team__list">
+            <li class="team__item">
               <img class="team__img" src="./images/igor.jpg" alt="Фото Ігоря" width="270" />
               <div class="team__wrapper">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p lang="en" class="team__text">Product Designer</p>
-                <ul class="list social-list--white">
+                <ul class="list social__list--white">
                   <li>
-                    <a class="link social-link" href="" target="_blank" 
+                    <a class="link social__link" href="" target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="instagram">
                     <svg class="" width="20px" height="20px">
@@ -157,7 +158,7 @@
                   </a>
                 </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" 
+                    <a class="link social__link" href="" target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="twitter">
                     <svg class="" width="20px" height="20px">
@@ -166,7 +167,7 @@
                   </a>
                 </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" 
+                    <a class="link social__link" href="" target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="facebook">
                     <svg class="" width="20px" height="20px">
@@ -175,7 +176,7 @@
                   </a>
                 </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" 
+                    <a class="link social__link" href="" target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="linkedin">
                     <svg class="" width="20px" height="20px">
@@ -187,35 +188,35 @@
               </div>
              
             </li>
-            <li class="team-list__item">
+            <li class="team__item">
               <img class="team__img" src="./images/olga.jpg" alt="Фото Ольги" width="270" />
               <div class="team__wrapper">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p lang="en" class="team__text">Frontend Developer</p>
-                <ul class="list social-list--white">
+                <ul class="list social__list--white">
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
@@ -225,35 +226,35 @@
               </div>
               
             </li>
-            <li class="team-list__item">
+            <li class="team__item">
               <img class="team__img" src="./images/mykola.jpg" alt="Фото Миколи" width="270" />
               <div class="team__wrapper">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p lang="en" class="team__text">Marketing</p>
-                <ul class="list social-list--white">
+                <ul class="list social__list--white">
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
@@ -263,35 +264,35 @@
               </div>
              
             </li>
-            <li class="team-list__item">
+            <li class="team__item">
               <img class="team__img" src="./images/mykhail.jpg" alt="Фото Михайла" width="270" />
               <div class="team__wrapper">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p lang="en" class="team__text">UI Designer</p>
-                <ul class="list social-list--white">
+                <ul class="list social__list--white">
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="link social-link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+                    <a class="link social__link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
                       <svg class="" width="20px" height="20px">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
